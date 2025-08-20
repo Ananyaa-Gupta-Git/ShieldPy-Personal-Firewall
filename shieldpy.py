@@ -15,6 +15,25 @@ RULES_FILE = "rules.json"
 last_modified = 0
 rules = {"blocked_ips": [], "allowed_ports": [], "blocked_protocols": []}
 
+# === ADDED: Backup file for system firewall ===
+BACKUP_FILE = "C:\\shieldpy_backup.wfw"
+
+def backup_firewall():
+    print("[*] Backing up current firewall rules...")
+    try:
+        subprocess.run(["netsh", "advfirewall", "export", BACKUP_FILE], check=True)
+    except Exception as e:
+        print(f"[!] Backup failed: {e}")
+
+def restore_firewall():
+    if os.path.exists(BACKUP_FILE):
+        print("[*] Restoring original firewall rules...")
+        try:
+            subprocess.run(["netsh", "advfirewall", "import", BACKUP_FILE], check=True)
+            os.remove(BACKUP_FILE)
+        except Exception as e:
+            print(f"[!] Restore failed: {e}")
+
 # === Load rules from JSON ===
 def load_rules():
     global last_modified, rules
@@ -57,6 +76,7 @@ def delete_firewall_rules():
 def handle_exit(sig, frame):
     print("\n[!] Exiting... Cleaning ShieldPy rules...")
     delete_firewall_rules()
+    restore_firewall()   # === ADDED === restore system firewall
     sys.exit(0)
 
 signal.signal(signal.SIGINT, handle_exit)
@@ -123,4 +143,8 @@ def packet_callback(packet):
 # === Start ===
 print("[*] ShieldPy started (Windows firewall enforcement + Interactive Mode)...")
 print("[*] Press CTRL+C to stop and auto-clean rules")
+
+# === ADDED: Backup firewall before we start sniffing ===
+backup_firewall()
+
 sniff(prn=packet_callback, store=False)

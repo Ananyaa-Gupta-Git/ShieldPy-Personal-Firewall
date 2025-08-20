@@ -9668,3 +9668,966 @@
 2025-08-19 16:46:52,950 - Firewall rule added: ShieldPy_Block_192.168.1.54
 2025-08-19 16:46:52,954 - Blocked by port rule: 52.104.131.41 -> 192.168.1.54:34504
 2025-08-19 16:46:53,065 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:03,862 - User allowed: 192.168.1.54->52.98.123.242 [TCP]
+2025-08-19 17:54:03,862 - Allowed: 192.168.1.54->52.98.123.242:443
+2025-08-19 17:54:03,865 - Blocked by port rule: 52.98.123.242 -> 192.168.1.54:60923
+2025-08-19 17:54:03,990 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:05,085 - User allowed: 192.168.1.54->52.98.123.242 [TCP]
+2025-08-19 17:54:05,085 - Allowed: 192.168.1.54->52.98.123.242:443
+2025-08-19 17:54:05,089 - Blocked by protocol: UDP 192.168.1.54->192.168.1.1
+2025-08-19 17:54:05,194 - Firewall rule added: ShieldPy_Block_192.168.1.1
+2025-08-19 17:54:05,194 - Blocked by protocol: UDP 192.168.1.54->192.168.1.1
+2025-08-19 17:54:05,284 - Firewall rule added: ShieldPy_Block_192.168.1.1
+2025-08-19 17:54:05,296 - Blocked by protocol: UDP 192.168.1.1->192.168.1.54
+2025-08-19 17:54:05,390 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:05,394 - Blocked by protocol: UDP 192.168.1.1->192.168.1.54
+2025-08-19 17:54:05,484 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:06,813 - User allowed: 192.168.1.54->13.107.246.68 [TCP]
+2025-08-19 17:54:06,815 - Allowed: 192.168.1.54->13.107.246.68:443
+2025-08-19 17:54:06,815 - Blocked by port rule: 13.107.246.68 -> 192.168.1.54:61000
+2025-08-19 17:54:06,912 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:08,061 - User allowed: 192.168.1.54->13.107.246.68 [TCP]
+2025-08-19 17:54:08,061 - Allowed: 192.168.1.54->13.107.246.68:443
+2025-08-19 17:54:09,173 - User allowed: 192.168.1.54->13.107.246.68 [TCP]
+2025-08-19 17:54:09,173 - Allowed: 192.168.1.54->13.107.246.68:443
+2025-08-19 17:54:09,964 - User allowed: 192.168.1.54->13.107.246.68 [TCP]
+2025-08-19 17:54:09,966 - Allowed: 192.168.1.54->13.107.246.68:443
+2025-08-19 17:54:09,966 - Blocked by port rule: 13.107.246.68 -> 192.168.1.54:61000
+2025-08-19 17:54:10,061 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:10,063 - Blocked by port rule: 13.107.246.68 -> 192.168.1.54:61000
+2025-08-19 17:54:10,133 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:11,126 - User allowed: 192.168.1.54->13.107.246.68 [TCP]
+2025-08-19 17:54:11,128 - Allowed: 192.168.1.54->13.107.246.68:443
+2025-08-19 17:54:11,128 - Blocked by port rule: 13.107.246.68 -> 192.168.1.54:61000
+2025-08-19 17:54:11,228 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:11,228 - Blocked by port rule: 13.107.246.68 -> 192.168.1.54:61000
+2025-08-19 17:54:11,318 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:11,321 - Blocked by port rule: 13.107.246.68 -> 192.168.1.54:61000
+2025-08-19 17:54:11,412 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:11,415 - Blocked by port rule: 13.107.246.68 -> 192.168.1.54:61000
+2025-08-19 17:54:11,494 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-19 17:54:13,873 - Firewall rule added: ShieldPy_Block_13.107.246.68
+2025-08-19 17:54:13,873 - User blocked: 192.168.1.54->13.107.246.68 [TCP]
+2025-08-19 17:54:15,903 - Firewall rule added: ShieldPy_Block_13.107.246.68
+2025-08-19 17:54:15,903 - User blocked: 192.168.1.54->13.107.246.68 [TCP]
+2025-08-19 17:54:17,645 - User allowed: 192.168.1.54->13.107.246.68 [TCP]
+2025-08-19 17:54:17,645 - Allowed: 192.168.1.54->13.107.246.68:443
+2025-08-19 17:54:17,645 - Blocked by port rule: 13.107.246.68 -> 192.168.1.54:61000
+2025-08-19 17:54:17,736 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:25,606 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:25,756 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:25,760 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:25,913 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:25,920 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:26,080 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:26,081 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:26,252 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:26,252 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:26,440 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:26,442 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:26,621 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:26,623 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 01:58:26,790 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:26,794 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:26,941 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:26,941 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:27,098 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:27,100 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:27,261 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:27,266 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:27,436 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:27,440 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:27,611 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:27,611 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:27,776 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:27,780 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:27,935 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:27,935 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:28,096 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:28,096 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:28,256 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:28,256 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 01:58:28,415 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:28,415 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:28,770 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:28,771 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:29,029 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:29,031 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:29,176 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:29,179 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:29,388 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:29,391 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:29,590 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:29,591 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:29,776 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:29,778 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:30,016 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:30,019 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:30,258 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:30,262 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:30,511 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:30,511 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:32,221 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:32,221 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 01:58:32,465 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:32,470 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:32,669 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:32,672 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:32,874 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:32,880 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:33,111 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:33,111 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:33,361 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:33,361 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:33,553 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:33,553 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:33,710 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:33,710 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:33,880 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:33,882 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:34,063 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:34,063 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:34,281 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:34,281 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:34,464 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:34,464 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:34,646 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:34,651 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:34,854 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:34,857 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:35,081 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:35,081 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:35,250 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:35,250 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:35,410 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:35,413 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:35,598 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:35,600 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:35,769 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:35,770 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:35,971 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:35,971 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:36,226 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:36,229 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:36,440 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:36,442 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:36,694 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:36,694 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:36,876 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:36,877 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 01:58:37,041 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:37,041 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:37,231 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:37,236 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:37,662 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:37,664 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:37,889 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:37,891 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:38,061 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:38,070 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 01:58:38,231 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 01:58:38,231 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 01:58:38,441 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 01:58:38,441 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:38,683 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:38,690 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 01:58:38,859 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 01:58:38,862 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:31,881 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:32,012 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:32,016 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:32,151 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:32,151 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:32,323 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:32,323 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:32,446 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:32,450 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:32,597 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:32,599 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:32,721 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:32,723 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 02:00:32,825 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:32,825 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:32,983 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:32,984 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:33,116 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:33,119 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:33,271 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:33,273 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:33,403 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:33,403 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:33,543 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:33,546 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:33,699 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:33,700 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:33,849 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:33,851 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:34,004 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:34,005 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:34,121 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:34,122 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:34,275 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:34,276 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:34,396 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:34,400 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:34,529 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:34,531 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:34,680 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:34,681 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:34,801 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:34,801 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:34,920 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:34,920 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:35,041 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:35,044 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:35,198 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:35,200 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:35,531 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:35,534 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:35,676 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:35,678 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:35,803 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:35,803 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:35,951 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:35,956 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:36,102 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:36,110 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 02:00:36,239 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:36,243 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:36,385 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:36,385 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:36,530 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:36,530 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:36,652 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:36,652 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:36,775 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:36,780 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:36,911 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:36,911 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,020 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,021 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,121 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,129 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,231 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,231 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,336 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,340 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,442 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,446 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,557 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,559 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,663 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,663 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,780 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,782 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,889 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,891 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:37,994 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:37,999 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:38,101 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:38,101 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:38,263 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:38,265 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 02:00:38,402 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:38,407 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:38,540 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:38,542 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:38,650 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:38,652 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:38,791 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:38,791 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:38,921 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:38,921 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:39,044 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:39,050 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:39,183 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:39,183 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 02:00:39,330 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:39,330 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:39,456 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:39,458 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:39,594 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:39,596 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:39,741 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:39,743 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:39,861 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:39,861 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:40,000 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:40,000 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:40,140 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:40,141 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:40,292 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:40,296 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:40,436 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:40,441 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:40,561 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:40,570 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:40,681 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:40,683 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:40,803 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:40,803 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:40,933 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:40,933 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:41,060 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:41,060 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:41,202 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:41,204 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:41,345 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:41,345 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:41,461 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:41,461 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:41,596 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:41,599 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:41,725 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:41,727 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:41,846 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:41,850 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:41,972 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:41,972 - Blocked by protocol: UDP 192.168.1.54->142.250.82.215
+2025-08-20 02:00:42,122 - Firewall rule added: ShieldPy_Block_142.250.82.215
+2025-08-20 02:00:42,122 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 02:00:42,272 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:42,272 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:42,405 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:42,406 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:42,510 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:42,510 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:42,626 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:42,630 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:42,762 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:42,762 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:42,893 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:42,896 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 02:00:43,047 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:43,054 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:43,200 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:43,201 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:43,334 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:43,334 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:43,461 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:43,463 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:43,581 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:43,581 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:43,703 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:43,706 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:43,841 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:43,852 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:44,003 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:44,008 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:44,136 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:44,140 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:44,276 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:44,276 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:44,415 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:44,426 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:44,550 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:44,551 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:44,681 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:44,681 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:44,811 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:44,811 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:44,933 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:44,939 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:45,110 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:45,111 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:45,230 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:45,231 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:45,366 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:45,370 - Blocked by protocol: UDP 142.250.82.215->192.168.1.54
+2025-08-20 02:00:45,496 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:45,496 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:45,629 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:45,634 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:45,765 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:45,765 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:45,898 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:45,900 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:46,020 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:46,020 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:46,171 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:46,176 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:00:46,314 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:00:46,314 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:46,451 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:46,455 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:46,615 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:46,620 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:46,760 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:46,760 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:46,895 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:46,901 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:47,050 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:47,052 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:47,193 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:47,196 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:47,311 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:00:47,311 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:00:47,443 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:35,471 - User allowed: 192.168.1.54->142.250.193.46 [TCP]
+2025-08-20 02:01:35,471 - Allowed: 192.168.1.54->142.250.193.46:443
+2025-08-20 02:01:38,552 - Firewall rule added: ShieldPy_Block_142.250.193.46
+2025-08-20 02:01:38,552 - User blocked: 192.168.1.54->142.250.193.46 [TCP]
+2025-08-20 02:01:42,596 - User allowed: 192.168.1.54->142.250.193.46 [TCP]
+2025-08-20 02:01:42,596 - Allowed: 192.168.1.54->142.250.193.46:443
+2025-08-20 02:01:45,153 - Firewall rule added: ShieldPy_Block_142.250.193.46
+2025-08-20 02:01:45,153 - User blocked: 192.168.1.54->142.250.193.46 [TCP]
+2025-08-20 02:01:45,153 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:62631
+2025-08-20 02:01:45,401 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:45,401 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:62631
+2025-08-20 02:01:45,620 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:45,621 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:62631
+2025-08-20 02:01:45,810 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:45,811 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:01:45,985 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:45,988 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:01:46,176 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:46,178 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:01:46,350 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:46,350 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:62631
+2025-08-20 02:01:46,542 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:46,542 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:62631
+2025-08-20 02:01:46,722 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:46,722 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:62631
+2025-08-20 02:01:46,900 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:01:48,136 - User allowed: 192.168.1.54->142.250.193.46 [TCP]
+2025-08-20 02:01:48,140 - Allowed: 192.168.1.54->142.250.193.46:443
+2025-08-20 02:03:38,781 - Blocked by port rule: 192.168.1.54 -> 142.250.82.253:19305
+2025-08-20 02:03:38,932 - Firewall rule added: ShieldPy_Block_142.250.82.253
+2025-08-20 02:03:38,933 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:39,080 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:39,080 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:39,241 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:39,241 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:39,364 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:39,366 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:39,471 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:39,478 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:39,632 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:39,632 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:39,791 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:39,791 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:39,918 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:39,919 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:40,031 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:40,031 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:40,154 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:40,154 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:40,254 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:40,259 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:40,392 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:40,392 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:40,500 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:40,501 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:40,614 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:40,619 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:40,746 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:40,750 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:40,872 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:40,872 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:41,009 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:41,010 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:41,114 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:41,119 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:41,240 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:41,242 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:41,374 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:41,376 - Blocked by port rule: 192.168.1.54 -> 142.250.82.253:19305
+2025-08-20 02:03:41,490 - Firewall rule added: ShieldPy_Block_142.250.82.253
+2025-08-20 02:03:41,492 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:41,632 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:41,632 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:41,768 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:41,772 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:41,914 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:41,914 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:42,211 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:42,211 - Blocked by port rule: 192.168.1.54 -> 142.250.82.253:19305
+2025-08-20 02:03:42,372 - Firewall rule added: ShieldPy_Block_142.250.82.253
+2025-08-20 02:03:42,373 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:42,520 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:42,520 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:42,674 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:42,674 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:42,826 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:42,828 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:42,952 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:42,952 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:43,100 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:43,104 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:43,256 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:43,259 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:43,415 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:43,415 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:43,510 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:43,512 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:43,601 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:43,601 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:43,692 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:43,692 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:43,802 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:43,802 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:43,902 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:43,903 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:43,998 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:44,000 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:44,086 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:44,090 - Blocked by port rule: 192.168.1.54 -> 142.250.82.253:19305
+2025-08-20 02:03:44,180 - Firewall rule added: ShieldPy_Block_142.250.82.253
+2025-08-20 02:03:44,182 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:44,272 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:44,272 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:44,380 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:44,385 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:44,486 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:44,486 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:44,592 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:44,594 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:44,722 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:44,722 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:44,852 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:44,853 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:44,982 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:44,982 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:45,106 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:45,109 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:45,261 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:45,261 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:45,423 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:45,423 - Blocked by port rule: 192.168.1.54 -> 142.250.82.253:19305
+2025-08-20 02:03:45,559 - Firewall rule added: ShieldPy_Block_142.250.82.253
+2025-08-20 02:03:45,564 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:45,691 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:45,696 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:45,830 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:45,843 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:45,961 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:45,961 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:46,109 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:46,112 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:46,233 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:46,236 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:46,363 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:46,363 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:46,505 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:46,508 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:46,660 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:46,660 - Blocked by port rule: 192.168.1.54 -> 142.250.82.253:19305
+2025-08-20 02:03:46,774 - Firewall rule added: ShieldPy_Block_142.250.82.253
+2025-08-20 02:03:46,774 - Blocked by port rule: 192.168.1.54 -> 142.250.82.253:19305
+2025-08-20 02:03:46,920 - Firewall rule added: ShieldPy_Block_142.250.82.253
+2025-08-20 02:03:46,920 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:47,050 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:47,050 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:47,171 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:47,176 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:47,288 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:47,291 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:47,391 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:47,394 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:47,500 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:47,501 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:47,603 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:47,609 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:47,711 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:47,715 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:47,820 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:47,833 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:47,953 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:47,953 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:48,063 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:48,070 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:48,176 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:48,181 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:48,278 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:48,279 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:48,392 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:48,392 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:48,492 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:48,494 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:48,601 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:48,605 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:48,732 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:48,732 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:48,834 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:48,834 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:48,971 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:48,971 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:49,120 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:49,122 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:49,270 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:49,270 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:49,394 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:49,394 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:49,500 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:49,500 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:49,639 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:49,641 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:49,783 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:49,788 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:49,991 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:49,991 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:50,125 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:50,128 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:50,261 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:50,263 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:50,386 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:50,392 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:50,543 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:50,546 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:50,650 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:50,663 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:50,771 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:50,775 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:50,912 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:50,912 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:51,085 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:51,092 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:51,226 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:51,230 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:51,344 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:51,344 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:51,476 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:51,480 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:51,600 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:51,602 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:51,753 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:51,753 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:51,888 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:51,891 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:52,019 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:52,021 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:52,125 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:52,125 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:52,241 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:52,241 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:52,366 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:52,371 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:52,494 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:52,498 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:52,636 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:52,640 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:52,750 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:52,751 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:52,870 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:52,870 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:53,032 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:53,032 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:53,176 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:53,180 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:53,293 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:53,293 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:53,420 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:53,422 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:53,542 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:53,550 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:53,669 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:53,671 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:53,803 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:53,803 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:53,970 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:53,970 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:54,071 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:54,082 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:54,190 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:54,194 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:54,318 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:54,320 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:54,431 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:54,431 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:54,561 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:54,563 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:54,699 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:54,700 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:54,821 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:54,823 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:54,972 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:54,974 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:55,081 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:55,081 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:55,229 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:55,230 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:55,341 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:55,341 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:55,451 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:55,456 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:55,591 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:55,593 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:55,696 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:55,699 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:55,826 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:55,829 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:55,940 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:55,941 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:56,045 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:56,045 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:56,171 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:56,171 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:56,303 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:56,309 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:56,410 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:56,410 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:56,531 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:56,531 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:56,639 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:56,640 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:56,744 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:56,746 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:56,830 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:56,830 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:56,950 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:56,951 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:57,083 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:57,083 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:57,246 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:57,246 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:57,378 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:57,380 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:57,502 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:57,502 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:57,632 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:57,632 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:57,760 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:57,767 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:57,875 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:57,876 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:03:57,996 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:57,999 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:58,106 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:58,109 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:58,210 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:58,215 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:58,335 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:58,335 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:58,470 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:58,470 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:58,581 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:58,586 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:58,712 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:58,712 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:58,836 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:58,836 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:58,960 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:58,961 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:59,075 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:59,075 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:59,193 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:59,193 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:03:59,336 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:03:59,338 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:59,460 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:59,465 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:59,587 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:59,590 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:59,701 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:59,701 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:59,821 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:59,821 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:03:59,942 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:03:59,946 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:00,061 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:00,061 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:00,186 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:00,190 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:00,346 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:00,349 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:00,494 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:00,499 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:00,620 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:00,623 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:00,761 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:00,763 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:00,866 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:00,870 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:01,011 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:01,011 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:01,131 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:01,142 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:01,290 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:01,291 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:01,421 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:01,421 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:01,576 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:01,576 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:01,698 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:01,700 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:01,810 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:01,812 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:01,942 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:01,942 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:02,076 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:02,076 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:02,191 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:02,191 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:02,321 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:02,321 - Blocked by port rule: 142.250.82.253 -> 192.168.1.54:27278
+2025-08-20 02:04:02,432 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:04:02,432 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:26773
+2025-08-20 02:04:02,564 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:06:01,382 - User allowed: 192.168.1.54->142.250.193.46 [TCP]
+2025-08-20 02:06:01,382 - Allowed: 192.168.1.54->142.250.193.46:443
+2025-08-20 02:06:01,382 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:51441
+2025-08-20 02:06:01,509 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:06:04,611 - Firewall rule added: ShieldPy_Block_142.250.193.46
+2025-08-20 02:06:04,611 - User blocked: 192.168.1.54->142.250.193.46 [TCP]
+2025-08-20 02:06:05,956 - User allowed: 192.168.1.54->142.250.193.46 [TCP]
+2025-08-20 02:06:05,956 - Allowed: 192.168.1.54->142.250.193.46:443
+2025-08-20 02:06:07,342 - Firewall rule added: ShieldPy_Block_142.250.193.46
+2025-08-20 02:06:07,342 - User blocked: 192.168.1.54->142.250.193.46 [TCP]
+2025-08-20 02:06:07,342 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:51441
+2025-08-20 02:06:07,501 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:06:07,506 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:51441
+2025-08-20 02:06:07,642 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:06:07,648 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:51441
+2025-08-20 02:06:07,826 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:06:07,829 - Blocked by port rule: 142.250.193.46 -> 192.168.1.54:51441
+2025-08-20 02:06:08,010 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:42,689 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:36:42,866 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:36:42,868 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:36:43,023 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:36:43,025 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:43,144 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:43,145 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:36:43,289 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:36:43,292 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:43,442 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:43,443 - Blocked by protocol: UDP 192.168.1.54->142.250.82.211
+2025-08-20 02:36:43,583 - Firewall rule added: ShieldPy_Block_142.250.82.211
+2025-08-20 02:36:43,584 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:43,706 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:43,708 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:43,853 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:44,397 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:44,551 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:45,396 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:45,557 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:52,780 - User allowed: 192.168.1.54->4.213.25.241 [TCP]
+2025-08-20 02:36:52,781 - Allowed: 192.168.1.54->4.213.25.241:443
+2025-08-20 02:36:52,782 - Blocked by port rule: 4.213.25.241 -> 192.168.1.54:43147
+2025-08-20 02:36:52,931 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:54,490 - Firewall rule added: ShieldPy_Block_4.213.25.241
+2025-08-20 02:36:54,490 - User blocked: 192.168.1.54->4.213.25.241 [TCP]
+2025-08-20 02:36:54,493 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:54,645 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:54,647 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:54,781 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:54,782 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:54,916 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:54,918 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:55,077 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:55,078 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:55,230 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:55,232 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:55,377 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:55,378 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:55,533 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:55,536 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:55,677 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:55,679 - Blocked by protocol: UDP 142.250.82.211->192.168.1.54
+2025-08-20 02:36:55,842 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:55,844 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:36:56,001 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:36:57,289 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:36:57,290 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:36:57,292 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:36:57,431 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:36:58,515 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:36:58,516 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:36:58,517 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:1885
+2025-08-20 02:36:58,635 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:58,637 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:36:58,784 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:36:58,786 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:36:58,959 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:36:58,961 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:25960
+2025-08-20 02:36:59,137 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:36:59,908 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:36:59,908 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:36:59,910 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:37:00,048 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:37:00,051 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:28362
+2025-08-20 02:37:00,214 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:37:01,158 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:37:01,159 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:37:01,161 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:37:01,263 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:37:01,265 - Blocked by port rule: 192.168.1.54 -> 142.250.82.252:19305
+2025-08-20 02:37:01,375 - Firewall rule added: ShieldPy_Block_142.250.82.252
+2025-08-20 02:37:01,377 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:36394
+2025-08-20 02:37:01,524 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:37:02,162 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:37:02,162 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:37:03,186 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:37:03,186 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:37:03,187 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:25960
+2025-08-20 02:37:03,336 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:37:04,271 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:37:04,272 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:37:05,209 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:37:05,210 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:37:05,211 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:36394
+2025-08-20 02:37:05,332 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:37:06,058 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:37:06,058 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:37:06,059 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:36394
+2025-08-20 02:37:06,198 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:37:06,845 - User allowed: 192.168.1.54->142.250.82.252 [TCP]
+2025-08-20 02:37:06,846 - Allowed: 192.168.1.54->142.250.82.252:443
+2025-08-20 02:37:06,847 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:1885
+2025-08-20 02:37:06,997 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 02:37:06,998 - Blocked by port rule: 142.250.82.252 -> 192.168.1.54:25960
+2025-08-20 02:37:07,148 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 13:56:12,759 - Blocked by protocol: UDP 192.168.1.3->224.0.0.251
+2025-08-20 13:56:12,883 - Firewall rule added: ShieldPy_Block_224.0.0.251
+2025-08-20 13:56:14,498 - Blocked by IP rule: 192.168.1.54 -> 8.8.8.8
+2025-08-20 13:56:14,610 - Firewall rule added: ShieldPy_Block_8.8.8.8
+2025-08-20 13:56:14,610 - Blocked by IP rule: 8.8.8.8 -> 192.168.1.54
+2025-08-20 13:56:14,738 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 13:56:14,911 - Blocked by port rule: 64.233.170.188 -> 192.168.1.54:53351
+2025-08-20 13:56:14,998 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 13:56:14,998 - Blocked by port rule: 192.168.1.54 -> 64.233.170.188:5228
+2025-08-20 13:56:15,096 - Firewall rule added: ShieldPy_Block_64.233.170.188
+2025-08-20 15:28:44,141 - User allowed: 192.168.1.54->104.215.18.215 [TCP]
+2025-08-20 15:28:44,150 - Allowed: 192.168.1.54->104.215.18.215:443
+2025-08-20 15:28:44,150 - Blocked by port rule: 104.215.18.215 -> 192.168.1.54:21502
+2025-08-20 15:28:44,271 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 15:28:44,942 - User allowed: 192.168.1.54->104.215.18.215 [TCP]
+2025-08-20 15:28:44,942 - Allowed: 192.168.1.54->104.215.18.215:443
+2025-08-20 15:28:44,942 - Blocked by port rule: 104.18.39.21 -> 192.168.1.54:58770
+2025-08-20 15:28:45,048 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 15:28:45,823 - User allowed: 192.168.1.54->104.18.39.21 [TCP]
+2025-08-20 15:28:45,823 - Allowed: 192.168.1.54->104.18.39.21:443
+2025-08-20 15:28:45,838 - Blocked by port rule: 104.18.39.21 -> 192.168.1.54:58770
+2025-08-20 15:28:45,950 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 15:28:46,689 - User allowed: 192.168.1.54->3.233.158.24 [TCP]
+2025-08-20 15:28:46,689 - Allowed: 192.168.1.54->3.233.158.24:443
+2025-08-20 15:28:46,689 - Blocked by port rule: 3.233.158.24 -> 192.168.1.54:16156
+2025-08-20 15:28:46,802 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 15:28:47,935 - Firewall rule added: ShieldPy_Block_3.233.158.24
+2025-08-20 15:28:47,935 - User blocked: 192.168.1.54->3.233.158.24 [TCP]
+2025-08-20 15:28:48,472 - User allowed: 192.168.1.54->142.251.223.100 [TCP]
+2025-08-20 15:28:48,472 - Allowed: 192.168.1.54->142.251.223.100:443
+2025-08-20 15:28:48,472 - Blocked by port rule: 142.251.223.100 -> 192.168.1.54:36708
+2025-08-20 15:28:48,583 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 15:28:49,273 - User allowed: 192.168.1.54->142.251.223.100 [TCP]
+2025-08-20 15:28:49,273 - Allowed: 192.168.1.54->142.251.223.100:443
+2025-08-20 15:28:50,270 - Firewall rule added: ShieldPy_Block_142.251.223.100
+2025-08-20 15:28:50,270 - User blocked: 192.168.1.54->142.251.223.100 [TCP]
+2025-08-20 15:28:50,787 - User allowed: 192.168.1.54->142.251.223.100 [TCP]
+2025-08-20 15:28:50,787 - Allowed: 192.168.1.54->142.251.223.100:443
+2025-08-20 15:28:50,787 - Blocked by port rule: 142.251.223.100 -> 192.168.1.54:36708
+2025-08-20 15:28:50,905 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 15:28:51,844 - Firewall rule added: ShieldPy_Block_142.251.223.100
+2025-08-20 15:28:51,844 - User blocked: 192.168.1.54->142.251.223.100 [TCP]
+2025-08-20 15:28:51,848 - Blocked by port rule: 142.251.223.100 -> 192.168.1.54:36708
+2025-08-20 15:28:51,938 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 15:28:51,938 - Blocked by port rule: 142.251.223.100 -> 192.168.1.54:36708
+2025-08-20 15:28:52,044 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 15:28:52,531 - User allowed: 192.168.1.54->142.251.223.100 [TCP]
+2025-08-20 15:28:52,531 - Allowed: 192.168.1.54->142.251.223.100:443
+2025-08-20 15:29:46,494 - Firewall rule added: ShieldPy_Block_142.251.223.100
+2025-08-20 15:29:46,494 - User blocked: 192.168.1.54->142.251.223.100 [TCP]
+2025-08-20 15:29:46,494 - Blocked by port rule: 142.251.223.100 -> 192.168.1.54:36708
+2025-08-20 15:29:46,592 - Firewall rule added: ShieldPy_Block_192.168.1.54
+2025-08-20 15:29:48,678 - Firewall rule added: ShieldPy_Block_142.251.223.100
+2025-08-20 15:29:48,678 - User blocked: 192.168.1.54->142.251.223.100 [TCP]
