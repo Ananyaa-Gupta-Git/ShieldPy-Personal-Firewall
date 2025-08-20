@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ShieldPy Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: url("/static/bg.jpg") no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f0f0;
+        }
+
+        /* Cyber Header */
+        header {
+            font-size: 44px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 900;
+            color: #ffffff;
+            -webkit-text-stroke: 1px #ffffff;
+            text-shadow: 0px 0px 10px #ffffff, 0px 0px 25px #00ffff, 0px 0px 50px #00cccc;
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 12px 25px;
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            background: rgba(0, 0, 0, 0.7);
+            width: fit-content;
+        }
+
+        header img {
+            width: 55px;
+            height: 55px;
+            filter: drop-shadow(0 0 10px #00ffff) drop-shadow(0 0 20px #00cccc);
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        h2, h3 {
+            color: #2c3e50;
+        }
+
+        /* Chart Container */
+        .chart-container {
+            max-width: 250px;
+            margin: 0 auto;
+        }
+
+        #logList {
+            height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: #0d1117;
+            color: #00ffcc;
+            font-family: monospace;
+        }
+
+        #logList li {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        #rules { 
+            margin-top: 20px; 
+            padding: 10px; 
+            border: 1px solid #ccc; 
+            background: #eef; 
+            color: #000; 
+        }
+
+        .rule-item { margin:5px 0; }
+        button { margin-left:10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/static/shield.png" alt="shield">
+        SHIELD PY
+    </header>
+
+    <div class="card">
+        <h2>📊 Traffic Stats</h2>
+        <div class="chart-container">
+            <canvas id="trafficChart" width="200" height="200"></canvas>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📜 Recent Activity</h2>
+        <ul id="logList"></ul>
+    </div>
+
+    <div class="card">
+        <h2>⚙️ Manage Rules</h2>
+        <div id="rules"></div>
+
+        <h3>Add Rule</h3>
+        <select id="ruleCategory">
+            <option value="blocked_ips">Blocked IP</option>
+            <option value="allowed_ports">Allowed Port</option>
+            <option value="blocked_protocols">Blocked Protocol</option>
+        </select>
+        <input type="text" id="ruleValue" placeholder="Enter value (IP, Port, Protocol)">
+        <button onclick="addRule()">Add Rule</button>
+    </div>
+
+    <script>
+        // === Chart ===
+        const ctx = document.getElementById('trafficChart').getContext('2d');
+        const chart = new Chart(ctx, {
+            type: 'pie',
+            data: { labels: ['Allowed', 'Blocked'], datasets: [{ data: [0,0], backgroundColor: ['green','red'] }] },
+            options: { responsive:true, plugins:{ legend:{ position:'bottom' } } }
+        });
+
+        async function fetchStats() {
+            const res = await fetch("/stats"); const data = await res.json();
+            chart.data.datasets[0].data = [data.allowed, data.blocked];
+            chart.update();
+        }
+
+        async function fetchLogs() {
+            const res = await fetch("/logs"); const logs = await res.json();
+            const logList = document.getElementById("logList");
+            logList.innerHTML = "";
+            logs.reverse().forEach(log => {
+                const li = document.createElement("li");
+                li.textContent = log;
+                logList.appendChild(li);
+            });
+            logList.scrollTop = 0;
+        }
+
+        async function fetchRules() {
+            const res = await fetch("/rules");
+            const rules = await res.json();
+            const rulesDiv = document.getElementById("rules");
+            rulesDiv.innerHTML = "";
+
+            for (const category in rules) {
+                const h4 = document.createElement("h4");
+                h4.textContent = category;
+                rulesDiv.appendChild(h4);
+
+                rules[category].forEach(value => {
+                    const div = document.createElement("div");
+                    div.className = "rule-item";
+                    div.textContent = value;
+
+                    const btn = document.createElement("button");
+                    btn.textContent = "Remove";
+                    btn.onclick = () => removeRule(category, value);
+
+                    div.appendChild(btn);
+                    rulesDiv.appendChild(div);
+                });
+            }
+        }
+
+        async function addRule() {
+            const category = document.getElementById("ruleCategory").value;
+            const value = document.getElementById("ruleValue").value.trim();
+            if (!value) return alert("Please enter a value");
+            await fetch("/add_rule", {
+                method:"POST", headers:{ "Content-Type":"application/json" },
+                body: JSON.stringify({ category, value })
+            });
+            document.getElementById("ruleValue").value = "";
+            fetchRules();
+        }
+
+        async function removeRule(category, value) {
+            await fetch("/remove_rule", {
+                method:"POST", headers:{ "Content-Type":"application/json" },
+                body: JSON.stringify({ category, value })
+            });
+            fetchRules();
+        }
+
+        setInterval(fetchStats, 2000);
+        setInterval(fetchLogs, 2000);
+        setInterval(fetchRules, 5000);
+        fetchStats(); fetchLogs(); fetchRules();
+    </script>
+</body>
+</html>
